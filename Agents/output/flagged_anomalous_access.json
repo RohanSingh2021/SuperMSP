@@ -1,0 +1,32 @@
+[
+  {
+    "employee_id": 1,
+    "employee_name": "Rohan Singh",
+    "role": "UI/UX Designer",
+    "software_name": "MySQL Workbench",
+    "software_key": "mysql workbench",
+    "license_type": "Community",
+    "license_cost_usd": 0.0,
+    "reason": "Role not typically allowed to use this software"
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "Vikram Iyer",
+    "role": "Backend Developer",
+    "software_name": "Docker (Free)",
+    "software_key": "docker (free)",
+    "license_type": "Free",
+    "license_cost_usd": 0.0,
+    "reason": "Role not typically allowed to use this software"
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Sneha Patel",
+    "role": "HR Manager",
+    "software_name": "Slack (Free)",
+    "software_key": "slack (free)",
+    "license_type": "Free",
+    "license_cost_usd": 0.0,
+    "reason": "Role not typically allowed to use this software"
+  }
+]

@@ -1,0 +1,54 @@
+.client-card {
+    background: transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border: none;
+  }
+  
+  .client-card:hover {
+    transform: scale(1.05);
+    z-index: 3;
+  }
+  
+  .client-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111827;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+    font-family: 'Inter', sans-serif;
+    border: none;
+  }
+  
+  .client-card::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    background: transparent;
+    z-index: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .client-card:hover::before {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }

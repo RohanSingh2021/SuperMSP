@@ -1,0 +1,75 @@
+[
+  {
+    "file_name": "2167c03f_VendorB_Quotation.pdf",
+    "key_points": {
+      "vendor_information": {
+        "vendor_name": "NovaWare Technologies Ltd.",
+        "quotation_number": "NWQ-5511",
+        "quotation_date": "5th October 2025"
+      },
+      "pricing": {
+        "base_price": 3000,
+        "currency": "USD",
+        "price_per_license": 60,
+        "total_licenses": 50,
+        "maintenance_annual": "5 USD per license per year after first year",
+        "payment_terms": "100% upfront",
+        "payment_schedule": "100% upfront"
+      },
+      "license_details": {
+        "license_type": "Perpetual",
+        "license_model": "Per-user",
+        "number_of_users": 50,
+        "license_scope": "Nova Productivity Suite (Includes Docs, Sheets, and Slides) and Smart Reminder App"
+      },
+      "contract_terms": {
+        "contract_duration": "Perpetual"
+      },
+      "red_flags": [
+        "100% upfront payment required.",
+        "Mandatory add-on (Smart Reminder App) is non-optional for this plan.",
+        "No discounts offered."
+      ],
+      "unique_benefits": [
+        "Perpetual usage rights after full payment."
+      ]
+    },
+    "extraction_timestamp": "2025-10-31T21:31:32.655923"
+  },
+  {
+    "file_name": "e681bf38_VendorA_Quotation.pdf",
+    "key_points": {
+      "vendor_information": {
+        "vendor_name": "TechSoft Solutions Pvt. Ltd.",
+        "quotation_number": "TSQ-2249",
+        "quotation_date": "3rd October 2025"
+      },
+      "pricing": {
+        "base_price": "2500",
+        "currency": "USD",
+        "price_per_license": "50",
+        "total_licenses": "50",
+        "setup_fees": "100 per visit (optional)",
+        "implementation_cost": "300",
+        "maintenance_annual": "$10/license/year",
+        "support_annual": "$10/license/year",
+        "payment_terms": "50% advance, 50% after deployment",
+        "payment_schedule": "50% advance, 50% after deployment",
+        "early_payment_discount": "5% on renewal for early payment"
+      },
+      "license_details": {
+        "license_type": "TechSoft Productivity Suite (Enterprise)",
+        "number_of_users": "50",
+        "license_scope": "Includes Writer, Sheets, and Mail Manager"
+      },
+      "contract_terms": {
+        "contract_duration": "1 Year",
+        "renewal_type": "Renewable annually"
+      },
+      "support_and_maintenance": {
+        "support_level": "Included for the first year"
+      }
+    },
+    "extraction_timestamp": "2025-10-31T21:31:47.081055"
+  }
+]

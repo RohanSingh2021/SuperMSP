@@ -1,0 +1,88 @@
+.software-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .software-info {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .software-name {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  
+  .license-key {
+    font-family: monospace;
+    color: #aaa;
+    margin-bottom: 0.2rem;
+  }
+  
+  .expiry {
+    color: #bbb;
+    font-size: 0.8rem;
+  }
+  
+  .seats-bar {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 8px;
+    position: relative;
+    margin-top: 0.8rem;
+    overflow: hidden;
+  }
+  
+  .bar-fill {
+    height: 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+.bar-fill.blue { 
+  background-color: #007bff; 
+  box-shadow: 
+    0 0 10px rgba(0, 123, 255, 0.7),
+    0 0 20px rgba(0, 123, 255, 0.5),
+    0 0 30px rgba(0, 123, 255, 0.3),
+    0 0 40px rgba(0, 123, 255, 0.2);
+  animation: blueGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes blueGlow {
+  from {
+    box-shadow: 
+      0 0 10px rgba(0, 123, 255, 0.7),
+      0 0 20px rgba(0, 123, 255, 0.5),
+      0 0 30px rgba(0, 123, 255, 0.3),
+      0 0 40px rgba(0, 123, 255, 0.2);
+  }
+  to {
+    box-shadow: 
+      0 0 15px rgba(0, 123, 255, 0.9),
+      0 0 25px rgba(0, 123, 255, 0.7),
+      0 0 35px rgba(0, 123, 255, 0.5),
+      0 0 45px rgba(0, 123, 255, 0.3);
+  }
+}
+  
+  .bar-fill.green { 
+    background-color: #00ff99; 
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.7);
+  }
+  
+  .bar-fill.lightblue { 
+    background-color: #33ccff; 
+    box-shadow: 0 0 10px rgba(51, 204, 255, 0.7);
+  }
+  
+  .seat-count {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: right;
+  }

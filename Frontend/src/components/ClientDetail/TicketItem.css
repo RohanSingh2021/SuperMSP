@@ -1,0 +1,58 @@
+.ticket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .ticket-title {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ticket-title::before {
+    content: "🎫";
+    margin-right: 6px;
+    font-size: 0.9rem;
+  }
+  
+  .ticket-date {
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+  .ticket-status {
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .ticket-status.in-progress {
+    background-color: #ffcc00;
+    color: #000;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+  }
+  
+  .ticket-status.resolved {
+    background-color: #00ff99;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+  }
+
+  .ticket-status.open {
+    background-color: rgb(39, 222, 39);
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 255, 166, 0.5);
+  }
+  
+  .ticket-status.closed {
+    background-color: orange;
+    color: #000;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+  }

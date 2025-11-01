@@ -1,0 +1,193 @@
+so u mean i just need to copy paste this, if yes then is it okay. for llm to understand :
+
+
+
+### *Service Level Agreement (SLA)*
+*Between*
+*Quantum IT Solutions*
+*and*
+*Innovate Corp*
+
+---
+
+### *1.0 SLA*
+
+This section outlines the control and versioning of this Service Level Agreement document.
+
+#### *Document details & change history*
+
+| Version | Date | Description | Authorization |
+| :--- | :--- | :--- | :--- |
+| 1.0 | October 9, 2025 | Initial Draft of SLA for review. | Ananya Sharma (Quantum) |
+| 1.1 | October 15, 2025 | Incorporated feedback from Innovate Corp regarding response times. | Rohan Gupta (Innovate) |
+| 1.2 | October 20, 2025 | Finalized pricing in Appendix A.1 and added RTO/RPO metrics. | Ananya Sharma, Rohan Gupta |
+| 2.0 | October 22, 2025 | Final version for signature. | Ananya Sharma, Rohan Gupta |
+
+#### *Document approvals*
+
+| Name | Role | Signature | Date |
+| :--- | :--- | :--- | :--- |
+| Ananya Sharma | Director of Services, Quantum IT Solutions | Ananya Sharma | October 22, 2025 |
+| Rohan Gupta | CTO, Innovate Corp | Rohan Gupta | October 22, 2025 |
+
+*Last Review:* October 22, 2025
+
+*Next Scheduled Review:* October 22, 2026
+
+---
+
+### *2.0. Agreement Overview*
+
+This section provides a high-level overview of the agreement, its purpose, and the terms used within.
+
+#### *2.1. SLA Introduction*
+
+This is a Service Level Agreement (SLA) between *Innovate Corp* (hereafter referred to as "Customer") and *Quantum IT Solutions* (hereafter referred to as "Service Provider"). This document identifies the Managed IT Services required and the expected level of service delivery between *November 1, 2025, to October 31, 2026*.
+
+This agreement covers the comprehensive IT infrastructure support, network management, helpdesk services, and security monitoring as detailed herein.
+
+Subject to review and renewal scheduled by *September 30, 2026*.
+
+*Signatories:*
+
+Ananya Sharma, Director of Services, Quantum IT Solutions
+Rohan Gupta, CTO, Innovate Corp
+
+#### *2.2. Definitions, conventions, acronyms, and abbreviations*
+
+| Term | Description |
+| :--- | :--- |
+| *SLA* | Service Level Agreement. This binding document. |
+| *MSP* | Managed Service Provider (Quantum IT Solutions). |
+| *Availability* | The percentage of time a service or system is operational and accessible. |
+| *Business Hours* | 09:00 to 18:00 IST, Monday through Friday, excluding public holidays. |
+| *Incident* | An unplanned interruption to an IT Service or reduction in the quality of an IT Service. |
+| *Problem* | The underlying cause of one or more incidents. |
+| *Change Request* | A formal proposal for an alteration to some product or system. |
+| *MTTR* | Mean Time To Repair. The average time taken to repair a failed component. |
+| *MTBF* | Mean Time Between Failures. The average time elapsed between inherent failures of a system. |
+| *RPO* | Recovery Point Objective. The maximum acceptable amount of data loss after an unplanned incident, measured in time. |
+| *RTO* | Recovery Time Objective. The targeted duration of time within which a business process must be restored after a disaster. |
+| *Ticket* | A record within the helpdesk system documenting an incident, request, or query from the Customer. |
+
+#### *2.3. Purpose*
+
+The purpose of this SLA is to specify the requirements of the Managed IT Services as defined herein with regards to:
+
+* Requirements for IT services that will be provisioned to [Customer].
+* Agreed service targets for availability, performance, and support responsiveness.
+* Criteria for target fulfillment evaluation, including reporting and service credit policies.
+* Roles and responsibilities of [Service Provider] and [Customer].
+* Duration, scope, and renewal of this SLA contract.
+* Supporting processes, limitations, exclusions, and deviations for maintaining a stable and secure IT environment for the Customer.
+
+#### *2.4. Contractual parameters*
+
+This section specifies the contractual parameters of this agreement:
+
+* This agreement is valid for a term of one (1) year from the effective date (November 1, 2025).
+* Contract renewal must be requested by [Customer] at least 30 days prior to the expiration date of this agreement.
+* Modifications, amendments, extension, and early termination of this SLA must be agreed upon in writing by both signatory parties.
+* [Customer] requires a minimum of 60 days’ notice for early termination of this SLA. [Service Provider] requires a minimum of 90 days’ notice.
+* Confidentiality of all information shared by both parties will be maintained throughout the contract term and for 24 months after termination.
+
+---
+
+### *3.0. Service Agreement*
+
+This section defines the specific services, performance metrics, and responsibilities.
+
+#### *3.1. KPIs and Metrics*
+
+The following table details the Key Performance Indicators (KPIs) and their committed service levels.
+
+| Metric | Commitment | Measurement Method |
+| :--- | :--- | :--- |
+| *Network Availability* | 99.9% Uptime (Core Switches, Routers, Firewalls) | Monitored via Network Monitoring System (NMS). Calculated monthly, excluding scheduled maintenance. |
+| *Server Availability* | 99.95% Uptime (Physical & Virtual Servers) | Monitored via Remote Monitoring & Management (RMM) tool. Calculated monthly. |
+| *Backup Success Rate* | 98% of all scheduled backup jobs complete successfully. | Daily reports from the backup management software. |
+| *Recovery Point Objective (RPO)* | 4 hours for critical servers; 24 hours for non-critical servers. | Measured from the time of disaster declaration to the timestamp of the restored data. |
+| *Recovery Time Objective (RTO)* | 8 hours for critical servers; 48 hours for non-critical servers. | Measured from the time of disaster declaration to the time the server is operational. |
+| *Antivirus Definition Updates* | 99% of endpoints updated within 24 hours of release. | Reports from the centralized antivirus management console. |
+| *OS Patch Compliance* | 95% of critical security patches applied within 14 days of release. | Reports from the RMM patch management module. |
+| *Helpdesk CSAT Score* | >= 4.5 / 5.0 (Average customer satisfaction) | Surveys sent to users upon ticket resolution. |
+
+#### *3.2. Service Levels, Rankings, and Priority*
+
+Incidents will be prioritized based on business impact, with response and resolution times assigned accordingly.
+
+| Severity Level | Description | Target Response | Target Resolution |
+| :--- | :--- | :--- | :--- |
+| *1. Critical* | System-wide outage. Affects all users (e.g., primary server down, internet outage, security breach). | 15 Minutes | 4 Hours |
+| *2. High* | Significant service degradation. Affects a whole department or a critical business function (e.g., ERP application slow, department printer offline). | 30 Minutes | 8 Business Hours |
+| *3. Medium* | Partial service degradation. Affects a small group of users or a non-critical function (e.g., user can't access a shared folder, performance issue on a single PC). | 1 Hour | 2 Business Days |
+| *4. Low* | Minor issue or inquiry affecting a single user. No significant business impact (e.g., software installation request, password reset). | 4 Business Hours | 5 Business Days |
+
+#### *3.3. Service Response*
+
+Service response is guaranteed during specified business hours. Critical (Severity 1) issues receive 24x7x365 support.
+
+* *Support Channels:* Service Desk Portal, Dedicated Email (support@quantumit.com), and Phone (+91-80-XXXX-XXXX).
+* *Business Hours:* 09:00 to 18:00 IST, Monday - Friday.
+* *After-Hours Support:* Available only for Severity 1 and Severity 2 incidents via the dedicated phone line. Response for other severities will begin on the next business day.
+
+#### *3.4. Exceptions and Limitations*
+
+This SLA is subject to the following exceptions and special conditions:
+
+* [Service Provider] is not liable for service degradation resulting from failures of third-party vendors, such as the Internet Service Provider (ISP). However, [Service Provider] will manage the vendor relationship to resolve the issue.
+* Scheduled maintenance windows (notified to [Customer] 48 hours in advance) are excluded from availability calculations.
+* [Service Provider] is not liable for service impact due to natural disasters, acts of terrorism, or other force majeure events.
+* Issues resulting from user error, unauthorized changes made by [Customer] staff, or failure of [Customer]-owned hardware/software not under this agreement are excluded.
+
+#### *3.5. Responses and Responsibilities*
+
+*[Customer] responsibilities:*
+
+* [Customer] shall designate a primary point of contact (POC) for all SLA-related matters.
+* [Customer] will provide [Service Provider] with necessary physical and remote access to all covered systems.
+* [Customer] shall inform [Service Provider] regarding changing business requirements or major environmental changes (e.g., new office location) at least 30 days in advance.
+* [Customer] is responsible for the costs and licensing of all business-specific software applications.
+
+*[Service Provider] responsibilities:*
+
+* [Service Provider] will act as the primary support provider for all services identified in this agreement.
+* [Service Provider] will conduct monthly performance review meetings and provide a detailed report covering all KPIs.
+* [Service Provider] will inform [Customer] regarding scheduled and unscheduled service outages as promptly as possible.
+* [Service Provider] will maintain up-to-date documentation of [Customer]'s IT infrastructure and processes.
+* [Service Provider] will proactively monitor all covered systems to identify and resolve issues before they impact business operations.
+
+#### *3.6. Service Management*
+
+*3.6.1. Service Availability*
+
+Service coverage by the [Service Provider] as outlined in this agreement follows the schedule specified below:
+
+* *On-site support:* Available from 09:00 to 18:00, Monday to Friday, upon request and subject to the terms in Appendix A.1.
+* *Remote support (Phone & Email):* 24x7x365 as per the severity levels outlined in Section 3.2 of this agreement.
+* *Proactive Monitoring:* 24x7x365 for all covered network devices, servers, and critical services.
+
+---
+
+### *References and Glossary*
+
+This SLA should be read in conjunction with the Master Services Agreement (MSA) signed between the parties. All terms not defined herein shall have the meaning ascribed to them in the MSA.
+
+---
+
+### *Appendix*
+
+#### *A.1. Pricing Models and Charges*
+
+Include the pricing models for each service type with detailed specifications. This is a "Gold Tier" package.
+
+| Service | Details | Quantity | Price (Per Month) |
+| :--- | :--- | :--- | :--- |
+| *User Support Plan* | Unlimited remote helpdesk, endpoint security (AV), patch management per user. | 75 Users | ₹2,500 / User |
+| *Server Management Plan* | 24x7 monitoring, maintenance, patching, backup management per server. | 8 Servers | ₹12,000 / Server |
+| *Network Device Management* | Firewall, Switch, and Wi-Fi Access Point monitoring and management. | 5 Devices | ₹5,000 / Device |
+| *Microsoft 365 Admin* | User/license management, security policy enforcement, support. | 75 Users | Included |
+| *On-site Support* | Includes 8 hours of on-site support per month. | 1 Block | Included |
+| *Additional On-site Hour* | For hours exceeding the included block. | Per Hour | ₹2,000 |
+| *Project Work* | Scoped separately (e.g., new office setup, cloud migration). | Per Quote | N/A |
+| *Total Monthly Recurring Charge* | | | *₹308,500* |

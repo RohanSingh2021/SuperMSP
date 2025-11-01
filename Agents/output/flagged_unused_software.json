@@ -1,0 +1,372 @@
+[
+  {
+    "employee_id": 1,
+    "employee_name": "Rohan Singh",
+    "software_name": "MySQL Workbench",
+    "software_key": "mysql workbench",
+    "last_used_iso": "2025-04-05T09:12:00+00:00",
+    "days_since_last_use": 208,
+    "license_cost_usd": 0.0,
+    "reason": "Not used in last 90 days"
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "Vikram Iyer",
+    "software_name": "Docker (Free)",
+    "software_key": "docker (free)",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Sneha Patel",
+    "software_name": "Slack (Free)",
+    "software_key": "slack (free)",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Amit Verma",
+    "software_name": "QuickBooks",
+    "software_key": "quickbooks",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 360.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Priya Reddy",
+    "software_name": "Google Analytics",
+    "software_key": "google analytics",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Priya Reddy",
+    "software_name": "Canva",
+    "software_key": "canva",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 180.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Karan Gupta",
+    "software_name": "GitHub",
+    "software_key": "github",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 48.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Karan Gupta",
+    "software_name": "Jira",
+    "software_key": "jira",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 93.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Karan Gupta",
+    "software_name": "Figma",
+    "software_key": "figma",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 144.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Meera Desai",
+    "software_name": "Confluence",
+    "software_key": "confluence",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 66.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Meera Desai",
+    "software_name": "Miro",
+    "software_key": "miro",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 192.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Arjun Mehta",
+    "software_name": "LinkedIn Sales Navigator",
+    "software_key": "linkedin sales navigator",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 950.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Arjun Mehta",
+    "software_name": "Microsoft Excel",
+    "software_key": "microsoft excel",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 150.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Divya Rao",
+    "software_name": "Tableau",
+    "software_key": "tableau",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 840.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Divya Rao",
+    "software_name": "AWS Sagemaker",
+    "software_key": "aws sagemaker",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Sameer Khan",
+    "software_name": "Microsoft 365 Admin",
+    "software_key": "microsoft 365 admin",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Sameer Khan",
+    "software_name": "Norton Antivirus",
+    "software_key": "norton antivirus",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 50.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Fatima Ansari",
+    "software_name": "Adobe Photoshop",
+    "software_key": "adobe photoshop",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 251.88,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Fatima Ansari",
+    "software_name": "Canva",
+    "software_key": "canva",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 180.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Rahul Nair",
+    "software_name": "Kubernetes",
+    "software_key": "kubernetes",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Rahul Nair",
+    "software_name": "Jenkins",
+    "software_key": "jenkins",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 0.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Rahul Nair",
+    "software_name": "Terraform",
+    "software_key": "terraform",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 240.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Sunita Joshi",
+    "software_name": "Microsoft Excel",
+    "software_key": "microsoft excel",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 150.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Sunita Joshi",
+    "software_name": "SAP",
+    "software_key": "sap",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 2500.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Naveen Kumar",
+    "software_name": "Microsoft Excel",
+    "software_key": "microsoft excel",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 150.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Naveen Kumar",
+    "software_name": "PowerBI",
+    "software_key": "powerbi",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 120.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Pooja Chavan",
+    "software_name": "BambooHR",
+    "software_key": "bamboohr",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 99.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Pooja Chavan",
+    "software_name": "Slack",
+    "software_key": "slack",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 87.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "Harish Patil",
+    "software_name": "Grammarly",
+    "software_key": "grammarly",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 144.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "Harish Patil",
+    "software_name": "WordPress",
+    "software_key": "wordpress",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 300.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Lakshmi Menon",
+    "software_name": "Jira",
+    "software_key": "jira",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 93.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Lakshmi Menon",
+    "software_name": "Figma",
+    "software_key": "figma",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 144.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Alok Tiwari",
+    "software_name": "Jira",
+    "software_key": "jira",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 93.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Alok Tiwari",
+    "software_name": "Postman",
+    "software_key": "postman",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 1188.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Alok Tiwari",
+    "software_name": "TestRail",
+    "software_key": "testrail",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 372.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Ritu Agarwal",
+    "software_name": "Salesforce",
+    "software_key": "salesforce",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 1800.0,
+    "reason": "Never used"
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Ritu Agarwal",
+    "software_name": "Microsoft Teams",
+    "software_key": "microsoft teams",
+    "last_used_iso": null,
+    "days_since_last_use": "NEVER_USED",
+    "license_cost_usd": 60.0,
+    "reason": "Never used"
+  }
+]

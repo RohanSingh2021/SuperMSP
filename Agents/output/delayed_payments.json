@@ -1,0 +1,16 @@
+[
+  {
+    "company_id": 9,
+    "company_name": "Starlight Hotels Group",
+    "contact_person": "Sameer Anand",
+    "contact_email": "sameer.anand@starlighthotels.com",
+    "payment_id": 9,
+    "invoice_month": "2025-10",
+    "amount_due": 750.0,
+    "due_date": "2025-10-21",
+    "payment_date": "2025-10-28",
+    "days_delayed": 7,
+    "status": "Paid",
+    "delay_penalty_applied": 3.46
+  }
+]

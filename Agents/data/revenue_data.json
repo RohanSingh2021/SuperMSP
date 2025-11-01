@@ -1,0 +1,302 @@
+[
+  {
+    "month": "2025-09",
+    "total_revenue": 12620,
+    "total_tickets": 305
+  },
+  {
+    "month": "2025-08",
+    "total_revenue": 12510,
+    "total_tickets": 278
+  },
+  {
+    "month": "2025-07",
+    "total_revenue": 12490,
+    "total_tickets": 265
+  },
+  {
+    "month": "2025-06",
+    "total_revenue": 12450,
+    "total_tickets": 290
+  },
+  {
+    "month": "2025-05",
+    "total_revenue": 12380,
+    "total_tickets": 288
+  },
+  {
+    "month": "2025-04",
+    "total_revenue": 12300,
+    "total_tickets": 285
+  },
+  {
+    "month": "2025-03",
+    "total_revenue": 12250,
+    "total_tickets": 292
+  },
+  {
+    "month": "2025-02",
+    "total_revenue": 12150,
+    "total_tickets": 300
+  },
+  {
+    "month": "2025-01",
+    "total_revenue": 12050,
+    "total_tickets": 310
+  },
+  {
+    "month": "2024-12",
+    "total_revenue": 11980,
+    "total_tickets": 255
+  },
+  {
+    "month": "2024-11",
+    "total_revenue": 11950,
+    "total_tickets": 280
+  },
+  {
+    "month": "2024-10",
+    "total_revenue": 11850,
+    "total_tickets": 295
+  },
+  {
+    "month": "2024-09",
+    "total_revenue": 11750,
+    "total_tickets": 298
+  },
+  {
+    "month": "2024-08",
+    "total_revenue": 11680,
+    "total_tickets": 270
+  },
+  {
+    "month": "2024-07",
+    "total_revenue": 11590,
+    "total_tickets": 260
+  },
+  {
+    "month": "2024-06",
+    "total_revenue": 11550,
+    "total_tickets": 285
+  },
+  {
+    "month": "2024-05",
+    "total_revenue": 11480,
+    "total_tickets": 280
+  },
+  {
+    "month": "2024-04",
+    "total_revenue": 11390,
+    "total_tickets": 275
+  },
+  {
+    "month": "2024-03",
+    "total_revenue": 11350,
+    "total_tickets": 288
+  },
+  {
+    "month": "2024-02",
+    "total_revenue": 11280,
+    "total_tickets": 295
+  },
+  {
+    "month": "2024-01",
+    "total_revenue": 11150,
+    "total_tickets": 305
+  },
+  {
+    "month": "2023-12",
+    "total_revenue": 11090,
+    "total_tickets": 240
+  },
+  {
+    "month": "2023-11",
+    "total_revenue": 11050,
+    "total_tickets": 275
+  },
+  {
+    "month": "2023-10",
+    "total_revenue": 10980,
+    "total_tickets": 290
+  },
+  {
+    "month": "2023-09",
+    "total_revenue": 10900,
+    "total_tickets": 292
+  },
+  {
+    "month": "2023-08",
+    "total_revenue": 10850,
+    "total_tickets": 265
+  },
+  {
+    "month": "2023-07",
+    "total_revenue": 10780,
+    "total_tickets": 250
+  },
+  {
+    "month": "2023-06",
+    "total_revenue": 10720,
+    "total_tickets": 278
+  },
+  {
+    "month": "2023-05",
+    "total_revenue": 10650,
+    "total_tickets": 275
+  },
+  {
+    "month": "2023-04",
+    "total_revenue": 10590,
+    "total_tickets": 270
+  },
+  {
+    "month": "2023-03",
+    "total_revenue": 10520,
+    "total_tickets": 285
+  },
+  {
+    "month": "2023-02",
+    "total_revenue": 10450,
+    "total_tickets": 290
+  },
+  {
+    "month": "2023-01",
+    "total_revenue": 10380,
+    "total_tickets": 300
+  },
+  {
+    "month": "2022-12",
+    "total_revenue": 10300,
+    "total_tickets": 230
+  },
+  {
+    "month": "2022-11",
+    "total_revenue": 10250,
+    "total_tickets": 268
+  },
+  {
+    "month": "2022-10",
+    "total_revenue": 10180,
+    "total_tickets": 282
+  },
+  {
+    "month": "2022-09",
+    "total_revenue": 10100,
+    "total_tickets": 285
+  },
+  {
+    "month": "2022-08",
+    "total_revenue": 10050,
+    "total_tickets": 260
+  },
+  {
+    "month": "2022-07",
+    "total_revenue": 9980,
+    "total_tickets": 245
+  },
+  {
+    "month": "2022-06",
+    "total_revenue": 9920,
+    "total_tickets": 270
+  },
+  {
+    "month": "2022-05",
+    "total_revenue": 9850,
+    "total_tickets": 268
+  },
+  {
+    "month": "2022-04",
+    "total_revenue": 9780,
+    "total_tickets": 265
+  },
+  {
+    "month": "2022-03",
+    "total_revenue": 9720,
+    "total_tickets": 275
+  },
+  {
+    "month": "2022-02",
+    "total_revenue": 9650,
+    "total_tickets": 280
+  },
+  {
+    "month": "2022-01",
+    "total_revenue": 9580,
+    "total_tickets": 290
+  },
+  {
+    "month": "2021-12",
+    "total_revenue": 9500,
+    "total_tickets": 220
+  },
+  {
+    "month": "2021-11",
+    "total_revenue": 9450,
+    "total_tickets": 260
+  },
+  {
+    "month": "2021-10",
+    "total_revenue": 9380,
+    "total_tickets": 275
+  },
+  {
+    "month": "2021-09",
+    "total_revenue": 9300,
+    "total_tickets": 278
+  },
+  {
+    "month": "2021-08",
+    "total_revenue": 9250,
+    "total_tickets": 255
+  },
+  {
+    "month": "2021-07",
+    "total_revenue": 9180,
+    "total_tickets": 240
+  },
+  {
+    "month": "2021-06",
+    "total_revenue": 9120,
+    "total_tickets": 265
+  },
+  {
+    "month": "2021-05",
+    "total_revenue": 9050,
+    "total_tickets": 260
+  },
+  {
+    "month": "2021-04",
+    "total_revenue": 8980,
+    "total_tickets": 255
+  },
+  {
+    "month": "2021-03",
+    "total_revenue": 8920,
+    "total_tickets": 270
+  },
+  {
+    "month": "2021-02",
+    "total_revenue": 8850,
+    "total_tickets": 275
+  },
+  {
+    "month": "2021-01",
+    "total_revenue": 8780,
+    "total_tickets": 285
+  },
+  {
+    "month": "2020-12",
+    "total_revenue": 8700,
+    "total_tickets": 210
+  },
+  {
+    "month": "2020-11",
+    "total_revenue": 8650,
+    "total_tickets": 250
+  },
+  {
+    "month": "2020-10",
+    "total_revenue": 8580,
+    "total_tickets": 265
+  }
+]

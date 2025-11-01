@@ -1,0 +1,154 @@
+Q1: How do I reset my corporate password?
+A: Steps:  
+1. Go to HelpDeskX → Account Management → Reset Password.  
+2. Enter your username and follow the OTP sent to your registered email/phone.  
+3. Choose a new strong password.  
+Tip: Avoid reusing old passwords.
+
+Q2: What should I do if my account is locked?
+A: Locked accounts occur after multiple failed login attempts.  
+- Wait 15–30 minutes and try again.  
+- If still locked, raise a ticket under HelpDeskX → IAM → Account Unlock.
+
+Q3: How do I enable multi-factor authentication (MFA)?
+A: Steps:  
+- Open HelpDeskX → Security Settings → MFA Setup.  
+- Select an authenticator app (SecureAuth/AuthPlus) or SMS.  
+- Scan QR code or enter code, then verify.  
+- MFA will be required for next login.
+
+Q4: How can I recover my username if I forget it?
+A: Steps:  
+- Go to HelpDeskX → Account Recovery → Forgot Username.  
+- Enter registered email or employee ID.  
+- You will receive your username via email.
+
+Q5: How do I request access to a new application?
+A: Submit a ticket:  
+- HelpDeskX → IAM → Access Request  
+Include:  
+- Application name  
+- Access level (read/write/admin)  
+- Manager approval  
+IT will process based on role & security policy.
+
+Q6: What is single sign-on (SSO) and how do I use it?
+A: SSO allows one login to access multiple corporate apps.  
+- Access via CorpPortal or AppHub.  
+- Use your AD credentials and MFA.  
+- No need to remember separate passwords for each app.
+
+Q7: How do I remove access to an application I no longer need?
+A: Steps:  
+- Go to HelpDeskX → IAM → Access Management → Revoke Access.  
+- Select application and submit request.  
+- IT will confirm revocation.
+
+Q8: How do I check which applications I currently have access to?
+A: HelpDeskX → IAM → My Access.  
+A list of applications, roles, and permissions will be displayed.
+
+Q9: How do I request temporary access for a colleague?
+A: Submit a “Temporary Access Request” with:  
+- Application name  
+- Duration of access  
+- Business justification  
+- Manager approval  
+IT will grant temporary credentials.
+
+Q10: How do I report suspicious account activity?
+A: Notify IT Security immediately via HelpDeskX → Security → Report Suspicious Activity.  
+Include:  
+- Date/time of activity  
+- Screenshots or logs  
+- Application affected
+
+Q11: How do I change my password regularly?
+A: Steps:  
+- Go to HelpDeskX → Account Settings → Change Password  
+- Follow complexity guidelines (min 12 characters, mix of letters, numbers, symbols).  
+- Avoid simple/common passwords.
+
+Q12: How do I unlock another employee’s account (manager privilege)?
+A: Only managers with IAM rights can request unlock:  
+- Submit request via HelpDeskX → IAM → Account Unlock → Employee Username  
+- Include reason and manager approval.  
+- IT will process within SLA.
+
+Q13: How do I assign roles within an application?
+A: Steps:  
+- Go to HelpDeskX → IAM → Role Assignment  
+- Select employee, application, and role (Viewer/Editor/Admin)  
+- Submit request.  
+Roles are applied based on security policies.
+
+Q14: What is the difference between AD group and individual access?
+A: AD group access allows managing multiple users at once.  
+- Adding someone to a group gives all permissions assigned to the group.  
+- Individual access must be assigned per user manually.
+
+Q15: How do I deactivate my corporate account when leaving the company?
+A: Submit ticket under HelpDeskX → IAM → Account Deactivation.  
+IT will revoke access, disable email, and archive data per company policy.
+
+Q16: How do I request access to shared folders?
+A: Steps:  
+- Identify folder and type of access needed (read/write).  
+- Submit HelpDeskX → IAM → File Access Request with manager approval.  
+- IT will verify permissions before granting access.
+
+Q17: How do I configure MFA for mobile apps?
+A: Steps:  
+- Open the app → Settings → Security → Enable MFA  
+- Choose authenticator app or SMS  
+- Scan QR code or enter one-time code
+
+Q18: How do I verify if MFA is active on my account?
+A: Quick check:  
+- Log in to CorpPortal → Security Settings → MFA Status.  
+- Active accounts will show “Enabled.”  
+- If disabled, enable MFA immediately.
+
+Q19: How do I recover access if I lose my MFA device?
+A: Steps:  
+- Submit ticket under HelpDeskX → IAM → MFA Recovery  
+- Provide employee ID and manager approval.  
+- IT will issue temporary credentials or reset MFA.
+
+Q20: How do I request elevated permissions temporarily?
+A: Submit “Temporary Admin Access” request:  
+- State reason, duration, and manager approval.  
+- IT will grant access with logging and automatic expiry.
+
+Q21: How do I revoke access for a terminated employee?
+A: IT automatically disables accounts at termination.  
+Managers should verify via HelpDeskX → IAM → Employee Access Review.
+
+Q22: How do I handle password expiry notifications?
+A: When notified:  
+- Go to HelpDeskX → Account Settings → Change Password  
+- Follow the prompts before expiry to avoid lockout.
+
+Q23: How do I reset security questions for my account?
+A: Steps:  
+- HelpDeskX → Account Settings → Security Questions  
+- Answer current questions to update, or request reset via IT if locked.
+
+Q24: How do I request access to cloud platforms like SharePoint or Teams?
+A: Submit ticket under HelpDeskX → IAM → Cloud Access Request.  
+Include: platform name, access level, and justification. IT will provision access.
+
+Q25: How do I check login history for my account?
+A: Steps:  
+- HelpDeskX → IAM → Login History  
+- View successful and failed logins.  
+- Report any suspicious activity to IT Security.
+
+Q26: How do I delegate access to another user temporarily?
+A: Submit a “Delegation Request” via HelpDeskX → IAM → Access Delegation.  
+Include: user, application, duration, and approval. IT ensures logs are captured.
+
+Q27: How do I verify if my access complies with company policies?
+A: Check HelpDeskX → IAM → Access Compliance Report.  
+This report highlights non-standard access and necessary revocations.
+

@@ -1,0 +1,175 @@
+Q1: How do I report a phishing email?
+A: Steps:  
+1. Do not click any links or attachments.  
+2. Forward the email to security@corpnet.local.  
+3. Tag the ticket as “Phishing Report” in HelpDeskX.  
+IT Security will investigate and notify you of next steps.
+
+Q2: What should I do if I suspect my laptop is infected with malware?
+A: Steps:  
+- Disconnect from network immediately.  
+- Run the corporate antivirus scan (CorpDefender).  
+- Submit ticket under HelpDeskX → Security → Malware Incident.  
+- Avoid using USB drives until cleared.
+
+Q3: How do I create a strong password?
+A: Guidelines:  
+- Minimum 12 characters  
+- Include upper & lower case, numbers, symbols  
+- Avoid common words or sequences  
+- Do not reuse old passwords  
+Example: `C0rp$Net!2025`
+
+Q4: How do I enable device encryption?
+A: Windows: Control Panel → System & Security → BitLocker.  
+Mac: System Preferences → Security & Privacy → FileVault.  
+IT may require encryption for compliance with corporate policy.
+
+Q5: How do I access corporate security policies?
+A: HelpDeskX → Security → Policy Library.  
+Policies include: Password Policy, Data Protection, Remote Work Guidelines, and Acceptable Use.
+
+Q6: How do I report a lost or stolen device?
+A: Steps:  
+- Notify IT immediately via HelpDeskX → Security → Lost Device.  
+- Include device type, serial number, and last known location.  
+- IT may remotely wipe or lock the device.
+
+Q7: How do I verify if my system has the latest security updates?
+A: Windows: Settings → Update & Security → Windows Update → Check for updates.  
+Mac: System Preferences → Software Update.  
+Tip: Corporate endpoints also receive auto-push updates via CorpDefender.
+
+Q8: What is phishing and how can I identify it?
+A: Phishing is a fraudulent attempt to obtain credentials or sensitive info.  
+Indicators:  
+- Suspicious sender email  
+- Urgent or threatening language  
+- Unexpected attachments or links  
+- Mismatched URLs
+
+Q9: How do I securely share confidential documents?
+A: Options:  
+- Use SharePoint or OneDrive corporate links with restricted permissions.  
+- Avoid email attachments unless encrypted.  
+- Label documents as “Confidential” per policy.
+
+Q10: How do I report a security vulnerability in an application?
+A: Steps:  
+- HelpDeskX → Security → Vulnerability Report  
+- Include: Application name, version, steps to reproduce, screenshots/logs.  
+IT Security will acknowledge and assign severity.
+
+Q11: How do I enable multi-factor authentication for cloud apps?
+A: Steps:  
+- HelpDeskX → Security → MFA Setup  
+- Choose authenticator app or SMS method  
+- Verify by entering the one-time code  
+- MFA enforced for Teams, SharePoint, and email
+
+Q12: How do I safely use public Wi-Fi for work purposes?
+A: Tips:  
+- Always connect via VPN  
+- Avoid accessing confidential apps or data  
+- Ensure firewall is enabled  
+- Use corporate-approved hotspot if possible
+
+Q13: How do I identify a suspicious file or attachment?
+A: Indicators:  
+- Unknown sender  
+- Unexpected file type (.exe, .scr, .zip)  
+- Strange file name or extension mismatch  
+- Unexpected request for credentials  
+Tip: Scan with corporate antivirus before opening.
+
+Q14: How do I encrypt emails with sensitive data?
+A: Use Outlook → New Email → Options → Encrypt.  
+Corporate encryption ensures only intended recipients can access content.
+
+Q15: How do I report unauthorized access to my account?
+A: Steps:  
+- Immediately change password.  
+- Submit HelpDeskX → Security → Account Breach.  
+- Include suspicious login times and affected applications.
+
+Q16: How do I safely dispose of old devices?
+A: Steps:  
+- Remove all sensitive data using CorpDefender wipe.  
+- Submit ticket for IT asset disposal.  
+- Return device to IT or approved vendor for recycling.
+
+Q17: How do I identify suspicious network activity?
+A: Signs include:  
+- Unexpected login from unknown locations  
+- Large unexplained data transfers  
+- Unusual application behavior  
+Report via HelpDeskX → Security → Network Suspicious Activity.
+
+Q18: How do I manage security alerts on my device?
+A: Steps:  
+- Check CorpDefender alerts in system tray.  
+- Follow instructions provided (scan, quarantine, update).  
+- Submit ticket if unsure about severity.
+
+Q19: How do I comply with GDPR or data privacy regulations?
+A: Tips:  
+- Only collect necessary personal data  
+- Store data in approved corporate systems  
+- Do not share personal data externally without authorization  
+- Refer to Data Privacy Policy in HelpDeskX
+
+Q20: How do I securely reset my password if I forget it?
+A: HelpDeskX → Account Management → Reset Password → Follow OTP verification.  
+Do not share temporary password with anyone.
+
+Q21: How do I recognize social engineering attempts?
+A: Indicators:  
+- Call or email requesting credentials  
+- Urgent or emotional pressure  
+- Offers that seem too good to be true  
+Tip: Verify request via official channels.
+
+Q22: How do I install antivirus or endpoint protection?
+A: Steps:  
+- HelpDeskX → Security → Antivirus Install  
+- Download and run CorpDefender installer  
+- Ensure auto-updates are enabled
+
+Q23: How do I securely transfer large files externally?
+A: Options:  
+- Use corporate-approved tools like SharePoint/OneDrive with expiration links  
+- Avoid USB drives or personal cloud services  
+- Encrypt files before sharing if required
+
+Q24: How do I report a potential insider threat?
+A: Steps:  
+- HelpDeskX → Security → Insider Threat Report  
+- Include: Observed behavior, time, and affected systems  
+IT Security will investigate confidentially.
+
+Q25: How do I protect my mobile device from malware?
+A: Tips:  
+- Install corporate mobile management (MDM) app  
+- Avoid installing unknown apps  
+- Keep OS updated  
+- Enable screen lock and encryption
+
+Q26: How do I handle suspicious emails requesting credentials?
+A: Do not respond.  
+- Report via HelpDeskX → Security → Phishing Report  
+- Delete email after reporting  
+- Verify sender via official channels
+
+Q27: How do I securely access company applications remotely?
+A: Steps:  
+- Connect via VPN  
+- Ensure MFA is active  
+- Use only approved devices  
+- Avoid public computers or untrusted networks
+
+Q28: How do I enable outlook to send emails?
+A: Steps:  
+- Open outlook settings 
+- select the activate emails tab
+- click select
+- the outlook emails will be activated

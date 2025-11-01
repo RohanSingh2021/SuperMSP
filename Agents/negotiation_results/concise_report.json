@@ -1,0 +1,49 @@
+{
+  "analysis_date": "2025-10-31T21:32:10.717203",
+  "vendor_analysis": {
+    "vendor_a": {
+      "vendor_name": "TechSoft Solutions Pvt. Ltd.",
+      "pros": [
+        "Lower initial cash outlay of $2,800.",
+        "Staged payment terms (50% advance, 50% after deployment) improve cash flow.",
+        "Annual contract offers flexibility to switch vendors.",
+        "Includes a dedicated Mail Manager feature.",
+        "Offers a 5% early payment discount on renewal."
+      ],
+      "cons": [
+        "Significantly higher long-term cost (e.g., $16,800 over 5 years).",
+        "Annual renewal dependency creates ongoing financial commitment.",
+        "Mandatory $300 implementation cost adds to initial expenses.",
+        "High combined annual maintenance and support cost ($1,000/year).",
+        "Optional setup fees ($100/visit) can increase total cost."
+      ],
+      "negotiation_strategy": "Focus on reducing the high annual recurring costs and mandatory implementation fees."
+    },
+    "vendor_b": {
+      "vendor_name": "NovaWare Technologies Ltd.",
+      "pros": [
+        "Perpetual license offers long-term ownership and usage rights.",
+        "Significantly lower long-term cost (e.g., $4,000 over 5 years).",
+        "Lower annual maintenance cost ($250/year after first year).",
+        "Comprehensive productivity suite (Docs, Sheets, Slides) is included."
+      ],
+      "cons": [
+        "Higher initial upfront payment of $3,000 is required.",
+        "100% upfront payment terms can strain cash flow.",
+        "Mandatory 'Smart Reminder App' might be an unnecessary cost.",
+        "No explicit support levels or response times are detailed.",
+        "No discounts are explicitly offered."
+      ],
+      "negotiation_strategy": "Seek discounts for the 100% upfront payment and clarify support details."
+    }
+  },
+  "recommendation": {
+    "recommended_vendor": "NovaWare Technologies Ltd.",
+    "reason": "NovaWare offers significantly better long-term value due to its perpetual license model and much lower annual maintenance fees, making it more cost-effective over time despite a higher initial lump sum.",
+    "key_negotiation_points": [
+      "Negotiate a discount for the 100% upfront payment.",
+      "Inquire about making the Smart Reminder App optional or reducing its cost.",
+      "Clarify the scope of 'maintenance' and if it includes any support level/response times."
+    ]
+  }
+}

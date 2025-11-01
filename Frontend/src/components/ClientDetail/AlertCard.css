@@ -1,0 +1,46 @@
+.alert-card {
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    margin: 0.4rem 0;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .alert-card.red {
+    background-color: rgba(255, 60, 60, 0.15);
+    border-left: 4px solid #ff3c3c;
+    box-shadow: 0 0 10px rgba(255, 60, 60, 0.3);
+  }
+  
+  .alert-card.red::before {
+    content: "⚠";
+    color: rgba(255, 60, 60, 0.7);
+    margin-right: 8px;
+  }
+  
+  .alert-card.orange {
+    background-color: rgba(255, 204, 0, 0.15);
+    border-left: 4px solid #ffcc00;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+  }
+  
+  .alert-card.orange::before {
+    content: "⚠";
+    color: rgba(255, 204, 0, 0.7);
+    margin-right: 8px;
+  }
+  
+  .alert-card.yellow {
+    background-color: rgba(216, 135, 225, 0.15);
+    border-left: 4px solid #dc54dc;
+    box-shadow: 0 0 10px rgba(203, 96, 178, 0.3);
+  }
+  
+  .alert-card.yellow::before {
+    content: "ℹ";
+    color: rgba(200, 83, 161, 0.7);
+    margin-right: 8px;
+  }

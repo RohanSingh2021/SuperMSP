@@ -1,0 +1,142 @@
+Q1: How do I connect to the company VPN from home?
+A: To connect from home:  
+1. Install the GlobalProtect VPN client from the corporate portal (HelpDeskX → Software Downloads).  
+2. Enter your Active Directory credentials.  
+3. Approve the MFA prompt from your authenticator app.  
+4. Click “Connect.”  
+If it fails, restart the VPN client and check your internet connection.
+
+Q2: My VPN keeps disconnecting. What should I do?
+A: Try these steps:  
+- Restart the VPN client and your device.  
+- Ensure your internet is stable (run SpeedCheck: https://speedcheck.corpnet.local).  
+- Close bandwidth-heavy applications (video streaming, large downloads).  
+- If the issue persists, raise a ticket under "Network → VPN Issues" in HelpDeskX with screenshots.
+
+Q3: How can I request firewall access for a specific port?
+A: Submit a request via HelpDeskX → Network Services → Firewall Requests. Provide:  
+- Application name  
+- Port number  
+- Protocol (TCP/UDP)  
+- Business justification  
+IT Security will review and notify you within 1–2 business days.
+
+Q4: How do I reset my Wi-Fi password?
+A: Wi-Fi passwords are centrally managed.  
+- Check HelpDeskX → Wi-Fi Credentials for temporary resets.  
+- For permanent issues, raise a ticket under “Network → Wi-Fi Support.”  
+- Avoid sharing passwords externally.
+
+Q5: What should I do if my internet is slow or dropping frequently?
+A: Possible causes: weak Wi-Fi signal, network congestion, VPN load.  
+Steps:  
+- Confirm connection to “CorpNet” or Ethernet.  
+- Restart router if working from home.  
+- Run SpeedCheck and record results.  
+- Submit ticket if speed <10 Mbps.
+
+Q6: How do I connect my device to the corporate Wi-Fi?
+A: Open Wi-Fi settings → select “CorpNet” → enter AD credentials and MFA code.  
+Accept any security certificates if prompted. Restart device if connection fails.
+
+Q7: How do I set up MFA for VPN?
+A: Install company-approved authenticator (SecureAuth/AuthPlus).  
+During VPN login, approve MFA push or enter one-time code.  
+If notifications fail, use the code from the app.
+
+Q8: Can I use my personal hotspot for work VPN?
+A: Yes, but temporarily. Ensure:  
+- Firewall is active.  
+- Avoid accessing sensitive applications.  
+- Report connection issues to IT via HelpDeskX → Network Support.
+
+Q9: How do I report a network outage in my area?
+A: Go to HelpDeskX → Report Issue → Network Outage.  
+Provide location, device type, and description. IT will acknowledge and update you until resolution.
+
+Q10: How do I check if a website is blocked by the corporate firewall?
+A: Try accessing the website. If blocked, a corporate error page appears.  
+Submit a firewall exception request if needed with URL, justification, and department.
+
+Q11: How do I connect to the office network from a remote site?
+A: Options:  
+- VPN via GlobalProtect for internal apps.  
+- Citrix Workspace for desktop applications.  
+- Ensure MFA is configured and working.  
+- Access resources via CorpPortal or internal URLs.
+
+Q12: What is the process to whitelist an application on the firewall?
+A: Steps:  
+1. Submit request in HelpDeskX → Network → Firewall Application Request.  
+2. Include application name, executable path, ports, and justification.  
+3. IT Security reviews and approves within 2 business days.
+
+Q13: How do I troubleshoot a network printer connectivity issue?
+A: Steps:  
+- Check network connection (Ethernet/Wi-Fi).  
+- Verify printer IP matches IT documentation.  
+- Ensure drivers are installed and updated.  
+- Restart printer and device.  
+- Raise ticket if still unresolved.
+
+Q14: Why can’t I access shared drives over VPN?
+A: Likely causes: inactive VPN, wrong drive mapping, or permission issues.  
+Verify:  
+- VPN connection is active.  
+- Drives mapped using UNC paths (\\Server\Share).  
+- Permissions exist; request access if missing.
+
+Q15: How do I request a static IP for my device?
+A: Submit via HelpDeskX → Network → Static IP Requests. Include device name, MAC address, and business justification. IT configures and provides IP.
+
+Q16: What should I do if my network cable is damaged?
+A: Replace if you have a spare, or raise a ticket under HelpDeskX → Hardware → Network Cable. IT/Facilities will replace per SLA.
+
+Q17: How do I set up dual network connections (Ethernet + Wi-Fi)?
+A: Recommendations:  
+- Connect Ethernet first for priority.  
+- Wi-Fi serves as fallback.  
+- Ensure VPN/firewall rules don’t conflict.  
+- Contact IT if routing issues occur.
+
+Q18: How do I verify my device is connected to the correct VLAN?
+A: Run `ipconfig` (Windows) or `ifconfig` (Mac/Linux). Check IP range against assigned VLAN. Contact IT if unsure.
+
+Q19: How do I configure DNS settings on my workstation?
+A: Usually DHCP-managed. For custom DNS:  
+- Windows: Control Panel → Network → Adapter → IPv4 Properties.  
+- Mac: System Preferences → Network → Advanced → DNS.  
+Unauthorized changes may block internal resources.
+
+Q20: How do I troubleshoot slow VPN connection?
+A: VPN speed depends on endpoint load and bandwidth. Steps:  
+- Close heavy apps.  
+- Restart VPN client.  
+- Test different VPN endpoints if available.  
+- Submit logs via HelpDeskX if problem persists.
+
+Q21: How do I access internal web applications from home?
+A: Connect via VPN → open browser → go to internal URL (CorpPortal/AppHub). Ensure MFA and SSO work correctly.
+
+Q22: How can I check my network speed and latency?
+A: Use:  
+- SpeedCheck portal: https://speedcheck.corpnet.local  
+- Ping internal server: `ping internalserver.corpnet.local`  
+Compare against recommended thresholds: >10 Mbps, <50ms latency.
+
+Q23: How do I report suspicious network activity?
+A: Notify IT Security immediately via HelpDeskX → Security → Report Suspicious Activity. Provide screenshots or logs. Do not attempt fixes on your own.
+
+Q24: How do I configure VPN on a mobile device?
+A: Install VPN client (GlobalProtect Mobile or Citrix Secure Access). Enter credentials, approve MFA, and test connection using internal resources.
+
+Q25: How do I request a new Wi-Fi access point for my office area?
+A: Submit request via HelpDeskX → Network → Wi-Fi Expansion. Include floor, room, and expected device load. IT/Facilities will assess feasibility and provide installation timeline.
+
+Q26: How do I reset network settings on my computer?
+A: Windows: Settings → Network & Internet → Status → Network Reset.  
+Mac: System Preferences → Network → Remove & Re-add interface.  
+Restart device after reset.
+
+Q27: How do I check VPN logs for troubleshooting?
+A: Open VPN client → Settings → Logs. Save and attach to HelpDeskX ticket for IT review.

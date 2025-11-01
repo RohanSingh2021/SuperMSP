@@ -1,0 +1,38 @@
+[
+  {
+    "company_id": 2,
+    "company_name": "Global Logistics Partners",
+    "contact_person": "Anjali Desai",
+    "contact_email": "a.desai@globallogistics.net",
+    "payment_id": 2,
+    "invoice_month": "2025-10",
+    "amount_due": 1000.0,
+    "due_date": "2025-10-31",
+    "days_until_due": 0,
+    "status": "Pending"
+  },
+  {
+    "company_id": 5,
+    "company_name": "Zenith Healthcare",
+    "contact_person": "Dr. Alok Gupta",
+    "contact_email": "alok.gupta@zenithhealth.org",
+    "payment_id": 5,
+    "invoice_month": "2025-10",
+    "amount_due": 2100.0,
+    "due_date": "2025-10-31",
+    "days_until_due": 0,
+    "status": "Pending"
+  },
+  {
+    "company_id": 10,
+    "company_name": "EduGrowth Tutors",
+    "contact_person": "Fatima Ahmed",
+    "contact_email": "fatima.a@edugrowth.edu",
+    "payment_id": 10,
+    "invoice_month": "2025-10",
+    "amount_due": 614.0,
+    "due_date": "2025-10-31",
+    "days_until_due": 0,
+    "status": "Pending"
+  }
+]

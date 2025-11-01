@@ -1,0 +1,116 @@
+[
+  {
+    "company_id": 1,
+    "company_name": "Innovatech Solutions Pvt. Ltd.",
+    "resolved_tickets": 89,
+    "average_resolution_time_hours": 2.4,
+    "employee_satisfaction": 4.5,
+    "tickets_by_category": {
+      "Application Performance Troubleshooting": 62,
+      "VPN & Remote Access Support": 17,
+      "Access Control & Permissions": 1,
+      "Software Installation & Configuration": 23
+    }
+  },
+  {
+    "company_id": 2,
+    "company_name": "Global Logistics Partners",
+    "resolved_tickets": 25,
+    "average_resolution_time_hours": 14.6,
+    "employee_satisfaction": 4.2,
+    "tickets_by_category": {
+      "Network & Connectivity Support": 11,
+      "Printer & Peripheral Support": 20
+    }
+  },
+  {
+    "company_id": 3,
+    "company_name": "Pioneer Manufacturing",
+    "resolved_tickets": 31,
+    "average_resolution_time_hours": 12.19,
+    "employee_satisfaction": 2.5,
+    "tickets_by_category": {
+      "Hardware Maintenance & Repair": 16,
+      "VPN & Remote Access Support": 18
+    }
+  },
+  {
+    "company_id": 4,
+    "company_name": "Creative Canvas Agency",
+    "resolved_tickets": 20,
+    "average_resolution_time_hours": 0.91,
+    "employee_satisfaction": 3.9,
+    "tickets_by_category": {
+      "Email & Collaboration Tools Support": 13,
+      "General IT Consultation": 13
+    }
+  },
+  {
+    "company_id": 5,
+    "company_name": "Zenith Healthcare",
+    "resolved_tickets": 38,
+    "average_resolution_time_hours": 0.57,
+    "employee_satisfaction": 0.83,
+    "tickets_by_category": {
+      "Account & Password Management": 20,
+      "Email & Collaboration Tools Support": 1,
+      "Access Control & Permissions": 22
+    }
+  },
+  {
+    "company_id": 6,
+    "company_name": "Quantum Financial Services",
+    "resolved_tickets": 20,
+    "average_resolution_time_hours": 5.37,
+    "employee_satisfaction": 4.49,
+    "tickets_by_category": {
+      "Application Performance Troubleshooting": 1,
+      "Account & Password Management": 4,
+      "Access Control & Permissions": 4,
+      "Security & Malware Response": 12
+    }
+  },
+  {
+    "company_id": 7,
+    "company_name": "GreenLeaf Organics",
+    "resolved_tickets": 8,
+    "average_resolution_time_hours": 8.83,
+    "employee_satisfaction": 3.29,
+    "tickets_by_category": {
+      "Network & Connectivity Support": 7,
+      "Printer & Peripheral Support": 3,
+      "Security & Malware Response": 1
+    }
+  },
+  {
+    "company_id": 8,
+    "company_name": "Apex Construction",
+    "resolved_tickets": 18,
+    "average_resolution_time_hours": 7.77,
+    "employee_satisfaction": 4.1,
+    "tickets_by_category": {
+      "Hardware Maintenance & Repair": 23
+    }
+  },
+  {
+    "company_id": 9,
+    "company_name": "Starlight Hotels Group",
+    "resolved_tickets": 29,
+    "average_resolution_time_hours": 1.67,
+    "employee_satisfaction": 4.49,
+    "tickets_by_category": {
+      "Network & Connectivity Support": 16,
+      "Printer & Peripheral Support": 19
+    }
+  },
+  {
+    "company_id": 10,
+    "company_name": "EduGrowth Tutors",
+    "resolved_tickets": 9,
+    "average_resolution_time_hours": 1.72,
+    "employee_satisfaction": 1.67,
+    "tickets_by_category": {
+      "Software Installation & Configuration": 10
+    }
+  }
+]

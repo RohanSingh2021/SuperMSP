@@ -1,0 +1,171 @@
+Q1: How do I raise a request for a new laptop?
+A: Steps:  
+1. Go to HelpDeskX → Hardware Requests → New Laptop.  
+2. Select the preferred model from the approved list.  
+3. Provide business justification and manager approval.  
+4. Submit the request.  
+SLA: 5–7 business days.
+
+Q2: My laptop is running slow. What should I do?
+A: Possible reasons include background apps, insufficient RAM, or malware. Try:  
+- Restart your laptop.  
+- Close unused applications.  
+- Run “IT Health Check” tool from HelpDeskX.  
+- Ensure all Windows/macOS updates are installed.  
+- If unresolved, submit a performance ticket.
+
+Q3: How do I install MS Office on my device?
+A: Procedure:  
+1. Go to portal.office.com using your corporate credentials.  
+2. Click “Install Office” and follow on-screen instructions.  
+3. Restart your device if required.  
+Tip: Only install the version approved by IT to avoid compatibility issues.
+
+Q4: How do I request software not listed in the portal?
+A: Submit HelpDeskX ticket → Software Requests → “New Software”. Include:  
+- Software name & version  
+- Purpose & business justification  
+- Manager approval  
+IT evaluates for licensing, security, and compatibility before approval.
+
+Q5: How do I report a hardware issue with my desktop or laptop?
+A: Steps:  
+- Submit ticket under Hardware → Device Issues.  
+- Include device type, serial number, and description of problem.  
+- Attach photos if applicable.  
+IT may schedule onsite visit or remote troubleshooting.
+
+Q6: My printer isn’t printing. What should I check first?
+A: Quick checks:  
+- Is the printer powered on?  
+- Is it connected to the network (Wi-Fi/Ethernet)?  
+- Is there a paper jam?  
+- Are correct drivers installed?  
+If still not working, raise ticket under Hardware → Printer Issues.
+
+Q7: How do I upgrade RAM or storage on my laptop?
+A: Request hardware upgrade via HelpDeskX → Hardware → Upgrade Request. IT will review:  
+- Device eligibility  
+- Warranty impact  
+- Approval from manager  
+Do not attempt self-upgrade; it may void warranty.
+
+Q8: How do I clear cache or temp files to improve performance?
+A: Windows: Use Disk Cleanup or run `cleanmgr`.  
+Mac: Use “Manage Storage” → “Reduce Clutter”.  
+Linux: Clear `/tmp` directory.  
+Always back up important files before cleaning.
+
+Q9: How do I reset my device to factory settings?
+A: Windows: Settings → Update & Security → Recovery → Reset this PC.  
+Mac: Restart → Command + R → Reinstall macOS.  
+Warning: This will erase all files; back up before resetting.
+
+Q10: How do I install a VPN client on my laptop?
+A: Steps:  
+1. Download VPN installer from HelpDeskX → Software Downloads.  
+2. Run installer, accept prompts.  
+3. Enter corporate credentials and complete MFA.  
+4. Test connection with internal resources.
+
+Q11: How do I connect a new printer to my laptop?
+A: Steps:  
+- For network printer: Add printer via Control Panel → Devices and Printers → Add Network Printer.  
+- For USB: Plug in cable, let system detect and install drivers.  
+- Confirm test page prints successfully.
+
+Q12: How do I recover deleted files from my corporate laptop?
+A: Options:  
+- Check Recycle Bin / Trash.  
+- Restore from OneDrive / SharePoint if synced.  
+- Submit HelpDeskX ticket for IT recovery if files are not locally available.
+
+Q13: How do I check if my device has the latest security patches?
+A: Windows: Settings → Update & Security → Windows Update → Check for updates.  
+Mac: System Preferences → Software Update.  
+Tip: IT Health Check tool can also report patch status.
+
+Q14: How do I troubleshoot audio or microphone issues?
+A: Steps:  
+- Check device volume and mute settings.  
+- Confirm correct input/output device is selected.  
+- Test with another application.  
+- Update or reinstall audio drivers if needed.  
+- Raise ticket if still unresolved.
+
+Q15: How do I map a network drive?
+A: Windows: File Explorer → Map Network Drive → Enter UNC path (\\Server\Share) → Finish.  
+Mac: Finder → Go → Connect to Server → Enter path.  
+Ensure VPN is connected if working remotely.
+
+Q16: How do I check device warranty status?
+A: Steps:  
+- Locate device serial number.  
+- Enter serial in HelpDeskX → Hardware → Warranty Lookup.  
+- Contact IT for warranty-related support or repairs.
+
+Q17: How do I install approved browser extensions?
+A: Only extensions listed in HelpDeskX → Approved Extensions.  
+Download via corporate portal or browser store.  
+Installing unapproved extensions may violate IT policy.
+
+Q18: My device battery drains quickly. What can I do?
+A: Tips:  
+- Reduce screen brightness and background apps.  
+- Disable unused peripherals (Bluetooth, external drives).  
+- Check for battery calibration issues.  
+- If persistent, submit ticket under Hardware → Battery Issues.
+
+Q19: How do I enable disk encryption on my device?
+A: Windows: BitLocker → Control Panel → System & Security → BitLocker Drive Encryption.  
+Mac: FileVault → System Preferences → Security & Privacy → FileVault.  
+IT may require encryption to comply with security policies.
+
+Q20: How do I configure dual monitors?
+A: Steps:  
+- Connect both monitors to device ports.  
+- Windows: Settings → Display → Identify & Extend Displays.  
+- Mac: System Preferences → Displays → Arrangement.  
+- Contact IT if drivers or adapters are needed.
+
+Q21: How do I submit a request for software license renewal?
+A: HelpDeskX → Software → License Renewal Request. Include:  
+- Software name & current license expiration  
+- Department & justification  
+- Manager approval  
+IT renews licenses per policy.
+
+Q22: How do I check system performance (CPU, RAM, Disk)?
+A: Windows: Task Manager (Ctrl+Shift+Esc) → Performance tab.  
+Mac: Activity Monitor → CPU, Memory, Disk.  
+Linux: `top` or `htop` in terminal.  
+Look for unusually high usage; raise ticket if abnormal.
+
+Q23: How do I reset my Windows password locally?
+A: If connected to AD: Press Ctrl+Alt+Del → Change Password.  
+If locked out, use HelpDeskX → Account Recovery to reset.
+
+Q24: How do I request a peripheral (mouse, keyboard, headset)?
+A: HelpDeskX → Hardware → Peripheral Request. Specify type, quantity, and reason. IT will approve and schedule delivery.
+
+Q25: How do I troubleshoot software installation errors?
+A: Steps:  
+- Verify system requirements are met.  
+- Check for pending OS updates.  
+- Run installer as administrator.  
+- Disable antivirus temporarily if required.  
+- Submit logs via HelpDeskX if installation still fails.
+
+Q26: How do I check if my device meets minimum requirements for an application?
+A: Steps:  
+- Review application requirements in HelpDeskX → Software Catalog.  
+- Compare with device specifications (CPU, RAM, OS version).  
+- Submit request for upgrade if needed.
+
+Q27: How do I perform remote desktop connection?
+A: Steps:  
+- Open Remote Desktop client.  
+- Enter target machine IP or name.  
+- Ensure VPN is active.  
+- Enter credentials and connect.  
+- If unable to connect, check firewall or request IT assistance.

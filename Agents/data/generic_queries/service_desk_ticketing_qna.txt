@@ -1,0 +1,151 @@
+Q1: How do I raise a new IT support ticket?
+A: Steps:  
+1. Log in to HelpDeskX → New Ticket.  
+2. Select category (Hardware, Software, Network, IAM, Security).  
+3. Provide description, urgency, and attach screenshots if needed.  
+4. Submit ticket. You’ll receive a ticket number for tracking.
+
+Q2: How do I check the status of my ticket?
+A: Quick methods:  
+- HelpDeskX → My Tickets → Status column  
+- Use ticket number in search  
+- You will see statuses like Open, In Progress, Pending, or Resolved.
+
+Q3: How do I escalate a ticket?
+A: Steps:  
+- Open ticket in HelpDeskX  
+- Click “Escalate”  
+- Provide reason and urgency  
+IT will route it to higher support tier.
+
+Q4: How do I close a resolved ticket?
+A: Once issue is resolved:  
+- Open ticket → Confirm resolution → Click “Close Ticket”  
+- Add feedback if required
+
+Q5: How do I attach files to a ticket?
+A: Steps:  
+- While creating or updating ticket, click “Attach File”  
+- Upload screenshots, logs, or relevant documents  
+- Max file size: 20 MB
+
+Q6: How do I edit a ticket after submission?
+A: Open ticket → Click “Edit” → Update description or add attachments → Save changes.  
+Note: Major edits may trigger re-assignment.
+
+Q7: How do I cancel a ticket I submitted by mistake?
+A: Steps:  
+- Open ticket → Click “Cancel Ticket”  
+- Provide reason  
+- IT will mark it as canceled
+
+Q8: How do I request IT support for urgent issues?
+A: Steps:  
+- Choose category → Select priority as “High/Urgent”  
+- Add detailed description and impact  
+- Optionally, call Service Desk hotline for immediate response
+
+Q9: How do I request hardware replacement via ticket?
+A: Steps:  
+- Category: Hardware → Subcategory: Replacement  
+- Provide device type, serial number, and reason  
+- Attach photos if damaged  
+- Submit ticket; IT will schedule replacement
+
+Q10: How do I request software installation via ticket?
+A: Steps:  
+- Category: Software → Subcategory: Installation  
+- Provide software name, version, and business justification  
+- Manager approval may be required  
+- IT schedules installation remotely or onsite
+
+Q11: How do I track SLA for my ticket?
+A: SLA info is visible in HelpDeskX → My Tickets → SLA column.  
+- It shows expected resolution time based on ticket priority.  
+- Notifications are sent for approaching SLA deadlines.
+
+Q12: How do I reopen a closed ticket?
+A: Open ticket → Click “Reopen” → Add description of recurring issue → Submit.  
+IT will assign a technician for follow-up.
+
+Q13: How do I report multiple issues in a single ticket?
+A: Best practice:  
+- Submit separate tickets for unrelated issues to ensure faster resolution  
+- If related, mention all issues clearly in description and label as multi-issue ticket
+
+Q14: How do I request password reset via ticket?
+A: Category: IAM → Subcategory: Password Reset  
+- Provide username or employee ID  
+- Follow OTP verification if required  
+- Ticket processed within 1–2 hours
+
+Q15: How do I request VPN or network support via ticket?
+A: Category: Network → Subcategory: VPN/Connectivity  
+- Provide connection issue details, error messages, and endpoint used  
+- IT will respond with troubleshooting or remote support steps
+
+Q16: How do I provide feedback for a resolved ticket?
+A: Open ticket → Click “Feedback” → Rate satisfaction (1–5) → Optional comments.  
+Feedback helps IT improve support quality.
+
+Q17: How do I request priority handling for critical business tickets?
+A: Steps:  
+- Select Priority: Critical  
+- Clearly describe business impact  
+- Notify Service Desk by phone or chat if required  
+- IT will escalate to Tier 2 or Tier 3 support
+
+Q18: How do I attach logs for troubleshooting via ticket?
+A: Steps:  
+- Save application logs locally  
+- While updating ticket, click “Attach File”  
+- Label log files with date/time and app name
+
+Q19: How do I request access to restricted portals via ticket?
+A: Category: IAM → Access Request → Portal Access  
+- Include portal name, access level, and manager approval  
+- IT will validate and grant permissions
+
+Q20: How do I report recurring issues via ticket?
+A: Steps:  
+- Open ticket → Add note about recurrence  
+- Attach screenshots or error logs  
+- IT may escalate or assign a long-term fix
+
+Q21: How do I request equipment pickup or delivery via ticket?
+A: Category: Hardware → Logistics  
+- Provide location, device type, and purpose  
+- IT schedules pickup/delivery per SLA
+
+Q22: How do I request application troubleshooting via ticket?
+A: Steps:  
+- Category: Software → Subcategory: Troubleshooting  
+- Include app version, error messages, screenshots  
+- IT may connect remotely or guide you step-by-step
+
+Q23: How do I check ticket history for my department?
+A: HelpDeskX → Department Tickets → Filter by status, category, or technician  
+- Useful for audits or recurring issue analysis
+
+Q24: How do I request a new service (like collaboration tools) via ticket?
+A: Category: Service Request → Subcategory: New Service  
+- Provide service name, business justification, manager approval  
+- IT will evaluate and provision per policy
+
+Q25: How do I escalate tickets that are delayed beyond SLA?
+A: Steps:  
+- Open ticket → Click “Escalate”  
+- Mention SLA breach and business impact  
+- IT management will review and assign priority
+
+Q26: How do I subscribe to ticket notifications?
+A: HelpDeskX → Settings → Notifications  
+- Enable email, mobile push, or dashboard alerts  
+- Customize per category or priority
+
+Q27: How do I collaborate with IT on an open ticket?
+A: Steps:  
+- Add comments in ticket with updates or questions  
+- Attach files/logs as needed  
+- Mention technicians using @username if supported  
+- IT will respond and update status accordingly

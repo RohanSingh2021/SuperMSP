@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "analysis_date": "2025-10-31T21:32:28.457286",
+    "quotations_analyzed": 2,
+    "documents": [
+      "2167c03f_VendorB_Quotation.pdf",
+      "e681bf38_VendorA_Quotation.pdf"
+    ],
+    "workflow": "extract_data -> extract_keypoints -> unified_comparison -> recommendation"
+  },
+  "extracted_key_points": [
+    {
+      "file_name": "2167c03f_VendorB_Quotation.pdf",
+      "key_points": {
+        "vendor_information": {
+          "vendor_name": "NovaWare Technologies Ltd.",
+          "quotation_number": "NWQ-5511",
+          "quotation_date": "5th October 2025"
+        },
+        "pricing": {
+          "base_price": 3000,
+          "currency": "USD",
+          "price_per_license": 60,
+          "total_licenses": 50,
+          "maintenance_annual": "5 USD per license per year after first year",
+          "payment_terms": "100% upfront",
+          "payment_schedule": "100% upfront"
+        },
+        "license_details": {
+          "license_type": "Perpetual",
+          "license_model": "Per-user",
+          "number_of_users": 50,
+          "license_scope": "Nova Productivity Suite (Includes Docs, Sheets, and Slides) and Smart Reminder App"
+        },
+        "contract_terms": {
+          "contract_duration": "Perpetual"
+        },
+        "red_flags": [
+          "100% upfront payment required.",
+          "Mandatory add-on (Smart Reminder App) is non-optional for this plan.",
+          "No discounts offered."
+        ],
+        "unique_benefits": [
+          "Perpetual usage rights after full payment."
+        ]
+      },
+      "extraction_timestamp": "2025-10-31T21:31:32.655923"
+    },
+    {
+      "file_name": "e681bf38_VendorA_Quotation.pdf",
+      "key_points": {
+        "vendor_information": {
+          "vendor_name": "TechSoft Solutions Pvt. Ltd.",
+          "quotation_number": "TSQ-2249",
+          "quotation_date": "3rd October 2025"
+        },
+        "pricing": {
+          "base_price": "2500",
+          "currency": "USD",
+          "price_per_license": "50",
+          "total_licenses": "50",
+          "setup_fees": "100 per visit (optional)",
+          "implementation_cost": "300",
+          "maintenance_annual": "$10/license/year",
+          "support_annual": "$10/license/year",
+          "payment_terms": "50% advance, 50% after deployment",
+          "payment_schedule": "50% advance, 50% after deployment",
+          "early_payment_discount": "5% on renewal for early payment"
+        },
+        "license_details": {
+          "license_type": "TechSoft Productivity Suite (Enterprise)",
+          "number_of_users": "50",
+          "license_scope": "Includes Writer, Sheets, and Mail Manager"
+        },
+        "contract_terms": {
+          "contract_duration": "1 Year",
+          "renewal_type": "Renewable annually"
+        },
+        "support_and_maintenance": {
+          "support_level": "Included for the first year"
+        }
+      },
+      "extraction_timestamp": "2025-10-31T21:31:47.081055"
+    }
+  ],
+  "unified_comparison": {
+    "comparison": "Here's a concise comparison of the two quotations:\n\n---\n\n### Comparison of Vendor Quotations\n\n**1. PRICING SUMMARY**\n\n*   **Base Prices & Initial Costs (50 Users):**\n    *   **NovaWare (Vendor B):** $3,000 (Perpetual licenses). No explicit setup fees.\n    *   **TechSoft (Vendor A):** $2,500 (1-year licenses) + $300 (Implementation Cost) = $2,800. Optional setup fees of $100 per visit are extra.\n    *   **Cheapest Initial Option:** TechSoft is slightly cheaper upfront for the licenses and mandatory implementation ($2,800 vs. $3,000).\n\n*   **Annual Costs & Long-Term Value:**\n    *   **NovaWare:** $250/year ($5/license) for maintenance, starting from the second year.\n    *   **TechSoft:** $1,000/year ($10/license for maintenance + $10/license for support). This cost applies annually from year one.\n    *   **Long-Term Cost:** NovaWare is significantly cheaper in the long run due to its perpetual license model. For example, over 5 years, NovaWare would cost $3,000 (initial) + 4 * $250 (maintenance) = $4,000. TechSoft would cost $2,800 (initial) + 4 * $3,500 (renewal + M&S) = $16,800 (before any early payment discount).\n    *   **Most Expensive Option:** TechSoft is considerably more expensive annually and long-term.\n\n*   **Hidden Costs:**\n    *   **NovaWare:** The \"Smart Reminder App\" is a mandatory add-on, which might be an unnecessary cost if not required.\n    *   **TechSoft:** Optional setup fees ($100/visit) could add to the cost if on-site assistance is needed. The combined maintenance and support cost ($1,000/year) is a significant recurring expense.\n\n**2. KEY TERMS**\n\n*   **Contract Duration & Renewal:**\n    *   **NovaWare:** Perpetual license, meaning ownership after initial payment.\n    *   **TechSoft:** 1-year contract, renewable annually.\n*   **License Restrictions & User Limits:**\n    *   Both vendors offer licenses for 50 users.\n    *   **NovaWare:** \"Per-user\" model for \"Nova Productivity Suite (Includes Docs, Sheets, and Slides) and Smart Reminder App.\"\n    *   **TechSoft:** \"TechSoft Productivity Suite (Enterprise)\" for \"Writer, Sheets, and Mail Manager.\"\n*   **Payment Terms:**\n    *   **NovaWare:** 100% upfront payment required.\n    *   **TechSoft:** 50% advance, 50% after deployment.\n*   **Cancellation Policies:** Not explicitly stated for either, but NovaWare's perpetual nature implies no cancellation once purchased, while TechSoft's annual model allows for non-renewal.\n\n**3. SUPPORT & FEATURES**\n\n*   **Support Levels & Response Times:**\n    *   **NovaWare:** Only \"maintenance\" is mentioned ($5/license/year after first year). No specific support level or response times are detailed.\n    *   **TechSoft:** Explicitly includes \"support\" at $10/license/year, with \"support level included for the first year.\" No specific response times are detailed.\n*   **Training & Implementation:**\n    *   **NovaWare:** No training or implementation costs mentioned.\n    *   **TechSoft:** Includes a mandatory $300 implementation cost. Training is not explicitly mentioned.\n*   **Key Feature Differences:**\n    *   **NovaWare:** Offers \"Docs, Sheets, Slides\" and a mandatory \"Smart Reminder App.\"\n    *   **TechSoft:** Offers \"Writer, Sheets, and Mail Manager.\" The inclusion of a dedicated Mail Manager might be a differentiator for some.\n\n**4. RECOMMENDATION**\n\n*   **Best Overall Value:** **NovaWare Technologies Ltd.** offers significantly better long-term value due to its perpetual license model, despite the higher initial lump sum and mandatory add-on.\n*   **Main Pros/Cons:**\n    *   **NovaWare (Vendor B):**\n        *   **Pros:** Perpetual usage rights, much lower long-term cost, comprehensive productivity suite.\n        *   **Cons:** 100% upfront payment, mandatory Smart Reminder App (potential unnecessary cost), no discounts offered, less explicit support details.\n    *   **TechSoft (Vendor A):**\n        *   **Pros:** Lower initial cash outlay, staged payment terms, annual commitment (flexibility to switch), early payment discount on renewal.\n        *   **Cons:** Significantly higher long-term cost, annual renewal dependency, mandatory implementation cost, potentially higher annual recurring fees.\n*   **Key Negotiation Points:**\n    *   **NovaWare:**\n        1.  Negotiate a discount for the 100% upfront payment.\n        2.  Inquire about making the Smart Reminder App optional or reducing its cost.\n        3.  Clarify the scope of \"maintenance\" and if it includes any support level/response times.\n    *   **TechSoft:**\n        1.  Negotiate a lower annual renewal price or a multi-year contract discount.\n        2.  Attempt to waive or reduce the $300 implementation cost.\n        3.  Clarify the specific support level included and response times for the annual support fee.",
+    "quotations_compared": 2,
+    "valid_quotations": 2,
+    "comparison_timestamp": "2025-10-31T21:32:10.715299",
+    "response_length": 4750,
+    "data_size": 2182,
+    "status": "success"
+  },
+  "final_recommendation": {
+    "concise_report": {
+      "analysis_date": "2025-10-31T21:32:10.717203",
+      "vendor_analysis": {
+        "vendor_a": {
+          "vendor_name": "TechSoft Solutions Pvt. Ltd.",
+          "pros": [
+            "Lower initial cash outlay of $2,800.",
+            "Staged payment terms (50% advance, 50% after deployment) improve cash flow.",
+            "Annual contract offers flexibility to switch vendors.",
+            "Includes a dedicated Mail Manager feature.",
+            "Offers a 5% early payment discount on renewal."
+          ],
+          "cons": [
+            "Significantly higher long-term cost (e.g., $16,800 over 5 years).",
+            "Annual renewal dependency creates ongoing financial commitment.",
+            "Mandatory $300 implementation cost adds to initial expenses.",
+            "High combined annual maintenance and support cost ($1,000/year).",
+            "Optional setup fees ($100/visit) can increase total cost."
+          ],
+          "negotiation_strategy": "Focus on reducing the high annual recurring costs and mandatory implementation fees."
+        },
+        "vendor_b": {
+          "vendor_name": "NovaWare Technologies Ltd.",
+          "pros": [
+            "Perpetual license offers long-term ownership and usage rights.",
+            "Significantly lower long-term cost (e.g., $4,000 over 5 years).",
+            "Lower annual maintenance cost ($250/year after first year).",
+            "Comprehensive productivity suite (Docs, Sheets, Slides) is included."
+          ],
+          "cons": [
+            "Higher initial upfront payment of $3,000 is required.",
+            "100% upfront payment terms can strain cash flow.",
+            "Mandatory 'Smart Reminder App' might be an unnecessary cost.",
+            "No explicit support levels or response times are detailed.",
+            "No discounts are explicitly offered."
+          ],
+          "negotiation_strategy": "Seek discounts for the 100% upfront payment and clarify support details."
+        }
+      },
+      "recommendation": {
+        "recommended_vendor": "NovaWare Technologies Ltd.",
+        "reason": "NovaWare offers significantly better long-term value due to its perpetual license model and much lower annual maintenance fees, making it more cost-effective over time despite a higher initial lump sum.",
+        "key_negotiation_points": [
+          "Negotiate a discount for the 100% upfront payment.",
+          "Inquire about making the Smart Reminder App optional or reducing its cost.",
+          "Clarify the scope of 'maintenance' and if it includes any support level/response times."
+        ]
+      }
+    },
+    "quotations_analyzed": 2,
+    "recommendation_timestamp": "2025-10-31T21:32:28.456146"
+  }
+}

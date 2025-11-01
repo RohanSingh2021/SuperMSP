@@ -1,0 +1,49 @@
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0e1a;
+}
+
+
+body {
+  background-color: #0a0e1a;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #0a0e1a;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+
+*:focus {
+  outline: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0f1b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
