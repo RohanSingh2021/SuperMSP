@@ -106,8 +106,7 @@ Super-MSP-Deploy-30-Oct/
 - **50+ REST endpoints** for complete system functionality
 - **WebSocket support** for real-time updates
 - **File upload/download** capabilities
-- **Multi-format exports** (PDF, Excel)
-- **Authentication & security** middleware
+- **File exports** (PDF)
 
 ### 3. Multi-Agent AI System (`chatbot_orchestrator.py`)
 - **Query analysis & routing** to specialized agents
@@ -229,6 +228,9 @@ The system uses SQLite with the following key tables:
 - **customer_company_employees** - End-user profiles
 - **software_inventory** - License management
 - **company_contract** - Contract details
+- **activity_logs** - Customer Company Employee Activity
+- **role_software_map** - Software Licenses allowed for each Role
+- **ticket_category_count** - Count of tickets for each category
 
 ## 🔌 API Endpoints
 
@@ -293,40 +295,36 @@ The system supports natural language queries and slash commands:
 2. **Agent Selection** - Route to specialized agents
 3. **Parallel Execution** - Fetch data simultaneously
 4. **Response Synthesis** - Combine insights
-5. **Export Generation** - PDF/Excel reports
+5. **Export Generation** - PDF reports
 
 ## 🔧 Configuration
 
 ### Environment Variables (.env)
 ```bash
-# AI Services
+MODEL_NAME=your_gemini_model_name
 GEMINI_API_KEY=your_gemini_api_key
 
-# Database
-DATABASE_PATH=./databases/msp_data.db
+DATA_PATH=output
 
-# File Storage
-UPLOADS_FOLDER=./uploads
-EXPORTS_FOLDER=./exports
+TAVILY_API_KEY=your_tavily_api_key
+SERP_API_KEY=your_serp_api_key
 
-# API Configuration
-API_HOST=0.0.0.0
-API_PORT=8002
+SMTP_SERVER=your_smtp_server
+SMTP_PORT=your_smtp_port
+SENDER_EMAIL=your_email
+SENDER_password=your_password
+
+JIRA_BASE_URL=jira_base_url
+JIRA_EMAIL=jira_email
+JIRA_API_TOKEN=jira_api_token
+JIRA_PROJECT_KEY=jira_project_key
 ```
 
-### Frontend Configuration (src/config.js)
-```javascript
-export const API_BASE_URL = 'http://localhost:8002';
-export const WS_BASE_URL = 'ws://localhost:8002';
-```
 
 ## 📈 Performance & Scalability
 
 - **Concurrent Processing** - Multi-threaded agent execution
 - **WebSocket Optimization** - Efficient real-time updates
-- **Database Indexing** - Optimized query performance
-- **Caching Strategy** - Vector embeddings and model results
-- **Rate Limiting** - API protection and quota management
 
 ## 🔒 Security Features
 
@@ -334,7 +332,6 @@ export const WS_BASE_URL = 'ws://localhost:8002';
 - **Input Validation** - Pydantic model validation
 - **File Type Restrictions** - PDF-only uploads
 - **Path Traversal Protection** - Secure file operations
-- **API Rate Limiting** - Abuse prevention
 
 ## 🧪 Testing & Development
 
@@ -360,7 +357,6 @@ npm run dev
 
 ## 📝 Logging & Monitoring
 
-- **Structured Logging** - JSON format with timestamps
 - **WebSocket Monitoring** - Connection tracking
 - **Agent Performance** - Execution time metrics
 - **Error Tracking** - Comprehensive error handling
@@ -387,20 +383,6 @@ docker-compose up --build
 docker-compose up --scale backend=3
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support & Troubleshooting
-
 ### Common Issues
 
 1. **Database Connection Errors**
@@ -417,23 +399,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 4. **File Upload Problems**
    - Ensure uploads directory exists
-   - Check file size limits
-
-### Getting Help
-- Check the logs in `Agents/logs/`
-- Review API documentation at `/docs`
-- Submit issues on GitHub
-- Contact support team
-
-## 🔮 Future Roadmap
-
-- **Multi-tenant Support** - Enterprise scaling
-- **Advanced Analytics** - Machine learning insights
-- **Mobile Application** - iOS/Android apps
-- **Integration Hub** - Third-party connectors
-- **Advanced Security** - OAuth2/SAML support
-- **Performance Optimization** - Redis caching
-- **Automated Testing** - CI/CD pipeline
 
 ---
 
